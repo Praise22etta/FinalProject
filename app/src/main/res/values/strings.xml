@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My FianlYearProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="item_name">Item Name</string>
+
+
+    <!-- Other string resources -->
+
+    <string-array name="item_categories">
+        <item>Food</item>
+        <item>Clothing</item>
+        <item>Electronics</item>
+        <item>Books</item>
+        <!-- Add more categories as needed -->
+    </string-array>
+
+    <string-array name="food_categories">
+        <item>Grains</item>
+        <item>Dairy</item>
+        <item>Vegetables</item>
+        <item>Fruits</item>
+        <item>Snacks</item>
+        <item>Beverages</item>
+        <item>Others</item>
+    </string-array>
+
+
+
+</resources>

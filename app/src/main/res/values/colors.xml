@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="softYellowGold">#E6C200</color>
+    <color name="earthyBrown">#8D6E63</color>
+    <color name="softCreamWhite">#FAF3E0</color>
+    <color name="charcoalGray">#2F3E46</color>
+    <color name="primaryColor">#93A87E</color>
+
+
+        <!-- Default Theme Colors (Fix Missing Colors) -->
+        <color name="purple_500">#6200EA</color>
+        <color name="purple_700">#3700B3</color>
+        <color name="purple_200">#BB86FC</color>
+        <color name="teal_200">#03DAC5</color>
+        <color name="teal_700">#018786</color>
+        <color name="black">#000000</color>
+        <color name="white">#FFFFFF</color>
+
+
+        <color name="ForestGreen">#4CAF50</color> <!-- Forest Green -->
+        <color name="WarmBeige">#FFF8E1</color> <!-- Warm Beige -->
+        <color name="RichBrown">#795548</color> <!-- Rich Brown -->
+        <color name="HarvestYellow">#FFD54F</color> <!-- Harvest Yellow -->
+        <color name="ClayOrange">#FF7043</color> <!-- Clay Orange -->
+        <color name="CharcoalGray">#333333</color> <!-- Charcoal Gray -->
+        <color name="SoftCreamWhite">#FAF9F6</color> <!-- Soft Cream White -->
+
+
+</resources>

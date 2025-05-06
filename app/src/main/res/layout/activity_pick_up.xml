@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/WarmBeige"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".PickUpActivity">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Pick-Up Details"
+        android:textSize="20sp"
+        android:textColor="@color/charcoalGray"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Selected Items Display -->
+    <TextView
+        android:id="@+id/txtSelectedItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Items: "
+        android:textSize="16sp"
+        android:textColor="@color/charcoalGray"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/txtTitle"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Address Input -->
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter pick-up address"
+        android:padding="12dp"
+        android:backgroundTint="@color/charcoalGray"
+        android:layout_marginTop="12dp"
+        android:inputType="textPostalAddress"
+        app:layout_constraintTop_toBottomOf="@id/txtSelectedItems"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <!-- Contact Number Input -->
+    <EditText
+        android:id="@+id/etContactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter contact number"
+        android:padding="12dp"
+        android:backgroundTint="@color/charcoalGray"
+        android:layout_marginTop="12dp"
+        android:inputType="phone"
+        android:maxLength="15"
+        android:digits="0123456789+ "
+        app:layout_constraintTop_toBottomOf="@id/etAddress"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <EditText
+        android:id="@+id/etPickupTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select preferred pick-up time"
+        android:focusable="false"
+        android:clickable="true"
+        android:inputType="none"
+        android:padding="12dp"
+        android:backgroundTint="@color/charcoalGray"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/etContactNumber"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <!-- Confirm Pick-Up Button -->
+    <Button
+        android:id="@+id/btnConfirmPickup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Pick-Up"
+        android:textColor="@color/softCreamWhite"
+        android:backgroundTint="@color/ForestGreen"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/etPickupTime"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Cancel Button -->
+    <Button
+        android:id="@+id/btnCancelPickup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textColor="@color/softCreamWhite"
+        android:backgroundTint="@color/RichBrown"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/btnConfirmPickup"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/info_background">
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Together, we fight hunger by reducing food waste. \n\nEvery day, thousands of meals go to waste while many struggle with hunger. \n\nZero Hunger connects people with surplus food to those who need it most. \n\nBy donating, you help reduce waste, support communities, and make a difference. \n\nJoin us today in building a hunger-free world."
+        android:textSize="16sp"
+        android:textColor="@color/softCreamWhite"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="40dp"
+        android:lineSpacingExtra="4dp"
+        android:layout_centerVertical="true"/>
+
+
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/softCreamWhite"
+        android:layout_below="@id/infoText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Sign Up Link -->
+    <TextView
+        android:id="@+id/txtSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Sign Up"
+        android:textStyle="bold"
+        android:textColor="@color/charcoalGray"
+        android:textSize="14sp"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
